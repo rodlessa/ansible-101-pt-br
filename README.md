@@ -1,6 +1,8 @@
 ## Configurando Ansible - Windows - HyperV - VM
 
-  
+
+#### Feedback é sempre bem vindo, tutorial vai ser atualizado de acordo com feedback.
+
 ### 1. Criando uma maquina de controle:
 
 Primeiro passo é criar a maquina de controle do Ansible.
