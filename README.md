@@ -41,7 +41,7 @@ O que estou fazendo aqui é enviando a chave primaria localizada no meu diretór
 
 Em seguida declaro o `usuario@ip_da_vm` , novamente, se você está usando os mesmos usuários em ambas as maquinas não precisa apontar o usuário, apenas declarar o ip.
 
-Agora que você enviou a chave para a maquina precisamos fazer a conexão por ela. Se você executar o comando ssh usuario@ip_da_vm você vai fazer autenticação normal de usuário solicitando a senha não utilizando a chave que foi gerada, para isso vamos utilizar o comando `ssh -i ~/.ssh/ansible vm@192.168.0.8`, no meu caso quando eu criei a chave, eu declarei onde ela ia ficar e o nome, por isso o /ansible, caso você tenha usado a opção padrão o seu comando deverá ser `ssh -i ~/.ssh/id_ed25519 usuario@ip_da_vm` .
+Agora que você enviou a chave para a maquina precisamos fazer a conexão por ela. Se você executar o comando ssh usuario@ip_da_vm você vai fazer autenticação normal de usuário solicitando a senha não utilizando a chave que foi gerada, para isso vamos utilizar o comando `ssh-copy-id -i ~/.ssh/ansible vm@192.168.0.8`, no meu caso quando eu criei a chave, eu declarei onde ela ia ficar e o nome, por isso o /ansible, caso você tenha usado a opção padrão o seu comando deverá ser `ssh-copy-id  -i ~/.ssh/id_ed25519 usuario@ip_da_vm` .
 
 Vai ser solicitado a senha caso você não tenha deixado em branco, por isso é importante ter essa chave bem segura, já que sem a senha uma pessoa com a chave pode ter acesso aos servidores que você está acessando.
 
