@@ -67,7 +67,7 @@ ansible dbservers --key-file ~/.ssh/id_ed25519 -i inventory -m ping
 
 ## Implementando as tarefas
 
-Nosso objetivo é iniciar 4 servidores, onde 3 são maquinas onde nosso site vai está sendo hospedado e um vai ser nosso banco de dados, realisticamente, se quisermos servir um aplicativo onde precisamos ter backups ou failovers ou apenas servir nossos clientes de um servidor mais proximo essa é uma tarefa relistica.
+Nosso objetivo é iniciar 4 servidores, onde 3 são maquinas onde nosso site estará sendo hospedado e um vai ser nosso banco de dados, realisticamente, se quisermos servir um aplicativo onde precisamos ter backups ou failovers ou apenas servir nossos clientes de um servidor mais proximo essa é uma tarefa relistica.
 Nossa ordem é:
 - Atualizar o servidor
 - Instalar o banco de dados, nesse caso o postgresql no servidor do banco

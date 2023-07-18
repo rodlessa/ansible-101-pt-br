@@ -7,7 +7,7 @@ o deploy de um projeto completo.
 
 Esse repo é atualizado de acordo com o que vou aprendendo e condensando da forma mais dinâmica possivel.
 
-[Parte 1 ](https://) - Instalação e configuração da maquina Host contendo o Ansible, configuração das chaves SSH para conexão com as maquinas virtuais.
+[Parte 1 ](https://github.com/rodlessa/ansible-101-pt-br/tree/main/Parte%201) - Instalação e configuração da maquina Host contendo o Ansible, configuração das chaves SSH para conexão com as maquinas virtuais.
 
-[Parte 2](https://) - Criando primeiro playbook para update e upgrade dos servidores, instalando aplicações e iniciando os serviços.
+[Parte 2](https://github.com/rodlessa/ansible-101-pt-br/tree/main/Parte%202) - Criando primeiro playbook para update e upgrade dos servidores, instalando aplicações e iniciando os serviços.
 
